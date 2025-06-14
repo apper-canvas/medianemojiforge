@@ -1,0 +1,74 @@
+[
+  {
+    "id": "layer1",
+    "type": "shape",
+    "visible": true,
+    "opacity": 1,
+    "elements": [
+      {
+        "type": "circle",
+        "fill": "#FFE66D",
+        "stroke": "#2A2D3A",
+        "strokeWidth": 2,
+        "points": [{"x": 64, "y": 64, "radius": 60}]
+      }
+    ],
+    "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1},
+    "name": "Base Circle"
+  },
+  {
+    "id": "layer2",
+    "type": "shape",
+    "visible": true,
+    "opacity": 0.8,
+    "elements": [
+      {
+        "type": "circle",
+        "fill": "#FF6B6B",
+        "stroke": "none",
+        "strokeWidth": 0,
+        "points": [{"x": 48, "y": 48, "radius": 8}]
+      }
+    ],
+    "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1},
+    "name": "Left Eye"
+  },
+  {
+    "id": "layer3",
+    "type": "shape",
+    "visible": true,
+    "opacity": 0.8,
+    "elements": [
+      {
+        "type": "circle",
+        "fill": "#FF6B6B",
+        "stroke": "none", 
+        "strokeWidth": 0,
+        "points": [{"x": 80, "y": 48, "radius": 8}]
+      }
+    ],
+    "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1},
+    "name": "Right Eye"
+  },
+  {
+    "id": "layer4",
+    "type": "path",
+    "visible": true,
+    "opacity": 1,
+    "elements": [
+      {
+        "type": "curve",
+        "fill": "none",
+        "stroke": "#2A2D3A",
+        "strokeWidth": 3,
+        "points": [
+          {"x": 44, "y": 80},
+          {"x": 64, "y": 92},
+          {"x": 84, "y": 80}
+        ]
+      }
+    ],
+    "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1},
+    "name": "Smile"
+  }
+]

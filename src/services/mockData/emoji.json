@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "name": "Happy Face",
+    "width": 128,
+    "height": 128,
+    "backgroundColor": "#FFE66D",
+    "layers": [
+      {
+        "id": "layer1",
+        "type": "shape",
+        "visible": true,
+        "opacity": 1,
+        "elements": [
+          {
+            "type": "circle",
+            "fill": "#FFE66D",
+            "stroke": "#FF6B6B",
+            "strokeWidth": 2,
+            "points": [{"x": 64, "y": 64, "radius": 60}]
+          }
+        ],
+        "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1}
+      }
+    ],
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Cool Sunglasses",
+    "width": 128,
+    "height": 128,
+    "backgroundColor": "#4ECDC4",
+    "layers": [
+      {
+        "id": "layer2",
+        "type": "shape",
+        "visible": true,
+        "opacity": 1,
+        "elements": [
+          {
+            "type": "circle",
+            "fill": "#4ECDC4",
+            "stroke": "#2A2D3A",
+            "strokeWidth": 2,
+            "points": [{"x": 64, "y": 64, "radius": 60}]
+          }
+        ],
+        "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1}
+      }
+    ],
+    "createdAt": "2024-01-14T15:45:00Z",
+    "updatedAt": "2024-01-14T15:45:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Heart Eyes",
+    "width": 128,
+    "height": 128,
+    "backgroundColor": "#FF6B6B",
+    "layers": [
+      {
+        "id": "layer3",
+        "type": "shape",
+        "visible": true,
+        "opacity": 1,
+        "elements": [
+          {
+            "type": "circle",
+            "fill": "#FF6B6B",
+            "stroke": "#FFE66D",
+            "strokeWidth": 2,
+            "points": [{"x": 64, "y": 64, "radius": 60}]
+          }
+        ],
+        "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1}
+      }
+    ],
+    "createdAt": "2024-01-13T09:20:00Z",
+    "updatedAt": "2024-01-13T09:20:00Z"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "t1",
+    "name": "Classic Smiley",
+    "category": "faces",
+    "featured": true,
+    "baseEmoji": {
+      "id": "base1",
+      "name": "Classic Smiley",
+      "width": 128,
+      "height": 128,
+      "backgroundColor": "#FFE66D",
+      "layers": [
+        {
+          "id": "face",
+          "type": "shape",
+          "visible": true,
+          "opacity": 1,
+          "elements": [
+            {
+              "type": "circle",
+              "fill": "#FFE66D",
+              "stroke": "#2A2D3A",
+              "strokeWidth": 3,
+              "points": [{"x": 64, "y": 64, "radius": 58}]
+            }
+          ],
+          "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1}
+        }
+      ]
+    },
+    "tags": ["happy", "smile", "face", "classic", "yellow"]
+  },
+  {
+    "id": "t2",
+    "name": "Cool Cat",
+    "category": "animals",
+    "featured": true,
+    "baseEmoji": {
+      "id": "base2",
+      "name": "Cool Cat",
+      "width": 128,
+      "height": 128,
+      "backgroundColor": "#4ECDC4",
+      "layers": [
+        {
+          "id": "cat-face",
+          "type": "shape",
+          "visible": true,
+          "opacity": 1,
+          "elements": [
+            {
+              "type": "circle",
+              "fill": "#4ECDC4",
+              "stroke": "#2A2D3A",
+              "strokeWidth": 2,
+              "points": [{"x": 64, "y": 64, "radius": 55}]
+            }
+          ],
+          "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1}
+        }
+      ]
+    },
+    "tags": ["cat", "animal", "cool", "pet", "teal"]
+  },
+  {
+    "id": "t3",
+    "name": "Heart Face",
+    "category": "faces",
+    "featured": false,
+    "baseEmoji": {
+      "id": "base3",
+      "name": "Heart Face",
+      "width": 128,
+      "height": 128,
+      "backgroundColor": "#FF6B6B",
+      "layers": [
+        {
+          "id": "heart-face",
+          "type": "shape",
+          "visible": true,
+          "opacity": 1,
+          "elements": [
+            {
+              "type": "circle",
+              "fill": "#FF6B6B",
+              "stroke": "#FFE66D",
+              "strokeWidth": 2,
+              "points": [{"x": 64, "y": 64, "radius": 58}]
+            }
+          ],
+          "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1}
+        }
+      ]
+    },
+    "tags": ["heart", "love", "face", "emotion", "red"]
+  },
+  {
+    "id": "t4",
+    "name": "Thumbs Up",
+    "category": "gestures",
+    "featured": true,
+    "baseEmoji": {
+      "id": "base4",
+      "name": "Thumbs Up",
+      "width": 128,
+      "height": 128,
+      "backgroundColor": "#95E1D3",
+      "layers": [
+        {
+          "id": "thumb",
+          "type": "shape",
+          "visible": true,
+          "opacity": 1,
+          "elements": [
+            {
+              "type": "rect",
+              "fill": "#95E1D3",
+              "stroke": "#2A2D3A",
+              "strokeWidth": 2,
+              "points": [{"x": 44, "y": 32, "width": 40, "height": 64}]
+            }
+          ],
+          "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1}
+        }
+      ]
+    },
+    "tags": ["thumbs", "up", "good", "gesture", "hand", "green"]
+  },
+  {
+    "id": "t5",
+    "name": "Robot Face",
+    "category": "objects",
+    "featured": false,
+    "baseEmoji": {
+      "id": "base5",
+      "name": "Robot Face",
+      "width": 128,
+      "height": 128,
+      "backgroundColor": "#54A0FF",
+      "layers": [
+        {
+          "id": "robot-head",
+          "type": "shape",
+          "visible": true,
+          "opacity": 1,
+          "elements": [
+            {
+              "type": "rect",
+              "fill": "#54A0FF",
+              "stroke": "#2A2D3A",
+              "strokeWidth": 3,
+              "points": [{"x": 24, "y": 24, "width": 80, "height": 80}]
+            }
+          ],
+          "transform": {"x": 0, "y": 0, "rotation": 0, "scaleX": 1, "scaleY": 1}
+        }
+      ]
+    },
+    "tags": ["robot", "tech", "future", "machine", "blue"]
+  }
+]
