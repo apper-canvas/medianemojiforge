@@ -16,10 +16,10 @@ const ColorPicker = ({
   const [saturation, setSaturation] = useState(100)
   const [lightness, setLightness] = useState(50)
 
-  const presetColors = [
+const presetColors = [
     '#FF6B6B', '#4ECDC4', '#FFE66D', '#95E1D3', '#FFA502',
     '#EE5A6F', '#54A0FF', '#2A2D3A', '#FFFFFF', '#000000',
-    '#FF9FF3', '#54A0FF', '#5F27CD', '#00D2D3', '#FF9F43',
+    '#FF9FF3', '#FF6348', '#5F27CD', '#00D2D3', '#FF9F43',
     '#FD79A8', '#6C5CE7', '#A29BFE', '#74B9FF', '#00CEC9'
   ]
 
